@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Application</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#">Home</a>
+          <a href="#">Services</a>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Akan application</h1>
+        <form action="/action page.php">
+        Enter the month:<input type="text" id="num1">
+        Enter the day:<input type="text" id="num2">
+        Enter the year:<input type="text" id="num3">
+        
+        </form>
+        <p>select your gender.</p>
+        <div id="gende">
+              <form action="">
+                <input id="man" type="radio"name="gender"value="male">Male<br>
+                <input id="woman" type="radio"name="gender"value="female">Female<br>
+                <button type="button" onclick="add()">Result</button>
+              </form>
+                        
+        </div>  
+            
+    </div>
+    
+         <p id="house"></p> 
+    <div id="anny"></div>
+    <script src="js/script.js"></script>
+</body>  
+</html>  
