@@ -8,7 +8,7 @@ function add(){
     var Result=Math.floor(result);  
 // document.querySelector("#house").innerHTML=Result;
 // alert(result);
-var know=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame","Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
+var know=["Kwasi=Sunday","Kwadwo=Monday","Kwabena=Tuesday","Kwaku=Wednesday","Yaw=Thursday","Kofi=Friday","Kwame=Saturday","Akosua=Sunday","Adwoa=Monday","Abenaa=Tuesday","Akua=Wednesday","Yaa=Thursday","Afua=Friday","Ama=Saturday"]
 if (  Result==0 && ge=="male" ){
     
     document.getElementById("house").innerHTML=know[0];
