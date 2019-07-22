@@ -7,6 +7,8 @@ Anitha-app is a project that deals with showing people their akan names based on
 * must have visual code studio
 * ubuntu setup
 * GitHub
+#BDD
+
 ## Technologies Used
 My project used HTML,CSS,and javascript languages.
 ## Support and contact details
