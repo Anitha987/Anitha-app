@@ -4,9 +4,9 @@
 Anitha-app is a project that deals with showing people their akan names based on the dates on which they were born.
 ## Setup/Installation Requirements
 * my end user must have chrome 
-* must have visual code
+* must have visual code studio
 * ubuntu setup
-* Github
+* GitHub
 ## Technologies Used
 My project used HTML,CSS,and javascript languages.
 ## Support and contact details
