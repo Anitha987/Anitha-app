@@ -1,5 +1,5 @@
 input[type=text], select {
-    width: 100%;
+    width: 60%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -8,7 +8,7 @@ input[type=text], select {
     box-sizing: border-box;
   }
   input[type=Result] {
-    width: 100%;
+    width: 60%;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -21,7 +21,6 @@ input[type=text], select {
     background-image:url("https://cdn.pixabay.com/photo/2017/01/05/05/57/cake-1954054_960_720.jpg");
     background-size:cover;
     background-repeat:no-repeat;
-    font-size: 50%;
   }
 #house{
   margin-left:200px;
