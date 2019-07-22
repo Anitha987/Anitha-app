@@ -16,13 +16,12 @@ input[type=text], select {
     border-radius: 4px;
    
   }
-  div {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
+ 
   body{
-    background-image:url("https://image.shutterstock.com/image-photo/warszawa-poland-december-16-2014-600w-249807004.jpg");
+    background-image:url("https://images2.jiji.ng/25443439_image_620x827.jpg");
     background-size:cover;
     background-repeat:no-repeat;
   }
+#house{
+  margin-left:200px;
+}

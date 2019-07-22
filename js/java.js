@@ -1,17 +1,16 @@
 function add(){
     var mm=document.getElementById("num1").value;
     var dd=document.getElementById("num2").value;
-    var yy=document.getElementById("num3").value;
-    var cc=document.getElementById("num4").value;
-    
-    var ge = document.getElementById("man","woman").value;
+    var yy=document.getElementById("num3").value; 
+    var ge = document.getElementById("man","woman").value
+    var cc=(yy-1)/100+1;
     var result= ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd )% 7;
     var Result=Math.floor(result);  
-
-document.querySelector("#house").innerHTML=Result;
-
+// document.querySelector("#house").innerHTML=Result;
+// alert(result);
 var know=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame","Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
 if (  Result==0 && ge=="male" ){
+    
     document.getElementById("house").innerHTML=know[0];
 }
 else if (Result==1 && ge=="male"){
@@ -53,7 +52,8 @@ else if (Result==5 && ge=="female"){
 else if (Result==6 && ge=="female"){
     document.getElementById("house").innerHTML=know[13];
 }
- return know;
+ else{
+     alert("know");
 }
-
+}
 
