@@ -2,8 +2,8 @@ function add(){
     var mm=document.getElementById("num1").value;
     var dd=document.getElementById("num2").value;
     var yy=document.getElementById("num3").value;
+    var cc=document.getElementById("num4").value;
     
-    var cc=(yy-1)/100+1;
     var ge = document.getElementById("man","woman").value;
     var result= ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd )% 7;
     var Result=Math.floor(result);  
