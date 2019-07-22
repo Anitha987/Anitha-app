@@ -9,11 +9,15 @@ function add(){
 // document.querySelector("#house").innerHTML=Result;
 // alert(result);
 var know=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame","Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
+if(dd>0 && dd<=31 && mm>0 && mm<=31 && yy>0){
 if (  Result==0 && ge=="male" ){
     
     document.getElementById("house").innerHTML=know[0];
 }
 else if (Result==1 && ge=="male"){
+
+
+
     document.getElementById("house").innerHTML=know[1];
 }
 else if (Result==2 && ge=="male"){
@@ -54,6 +58,10 @@ else if (Result==6 && ge=="female"){
 }
  else{
      alert("know");
+}
+}
+else{
+    alert("please enter a valid date")
 }
 }
 

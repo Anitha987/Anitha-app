@@ -18,9 +18,10 @@ input[type=text], select {
   }
  
   body{
-    background-image:url("https://images2.jiji.ng/25443439_image_620x827.jpg");
+    background-image:url("https://cdn.pixabay.com/photo/2017/01/05/05/57/cake-1954054_960_720.jpg");
     background-size:cover;
     background-repeat:no-repeat;
+    font-size: 50%;
   }
 #house{
   margin-left:200px;
