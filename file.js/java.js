@@ -47,10 +47,10 @@ else if (Result==3 && ge=="female"){
 else if (Result==4 && ge=="female"){
     document.getElementById("house").innerHTML=know[11];
 }
-else if (Result==5 && ge=="male"){
+else if (Result==5 && ge=="female"){
     document.getElementById("house").innerHTML=know[12];
 }
-else if (Result==6 && ge=="male"){
+else if (Result==6 && ge=="female"){
     document.getElementById("house").innerHTML=know[13];
 }
  return know;
