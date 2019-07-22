@@ -9,6 +9,7 @@ function add(){
 // document.querySelector("#house").innerHTML=Result;
 // alert(result);
 var know=["Kwasi=Sunday","Kwadwo=Monday","Kwabena=Tuesday","Kwaku=Wednesday","Yaw=Thursday","Kofi=Friday","Kwame=Saturday","Akosua=Sunday","Adwoa=Monday","Abenaa=Tuesday","Akua=Wednesday","Yaa=Thursday","Afua=Friday","Ama=Saturday"]
+if(dd>0 && dd<=31 && mm>0 && mm<=31 && yy>0){
 if (  Result==0 && ge=="male" ){
     
     document.getElementById("house").innerHTML=know[0];
@@ -56,4 +57,7 @@ else if (Result==6 && ge=="female"){
      alert("know");
 }
 }
-
+else{
+    alert("please enter a valid date")
+}
+}
